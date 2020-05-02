@@ -10,6 +10,9 @@ intents:
 - mood_unhappy
 - bot_challenge
 - purchase_query
+- welcome
+entities:
+- model
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -18,6 +21,7 @@ responses:
     image: https://i.imgur.com/nGF1K8f.jpg
   utter_did_that_help:
   - text: Did that help you?
+  - text: Hello!
   utter_happy:
   - text: Great, carry on!
   utter_goodbye:
@@ -26,6 +30,8 @@ responses:
   - text: I am a bot, powered by Rasa.
   utter_disambiguate_model:
   - text: Which model were you looking for?
+  utter_welcome_message:
+  - text: Welcome!
 actions:
 - utter_greet
 - utter_cheer_up
@@ -34,3 +40,4 @@ actions:
 - utter_goodbye
 - utter_iamabot
 - utter_disambiguate_model
+- utter_welcome_message

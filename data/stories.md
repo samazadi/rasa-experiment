@@ -59,3 +59,8 @@
 
 * purchase_query
     - utter_disambiguate_model
+
+## Welcome
+
+* welcome
+    - utter_welcome_message
