@@ -18,6 +18,7 @@
 - of course
 - that sounds good
 - correct
+- yes! thank you
 
 ## intent:deny
 - no
@@ -48,9 +49,21 @@
 - not very good
 - extremely sad
 - so sad
+- im doing ok
 
 ## intent:bot_challenge
 - are you a bot?
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:purchase_query
+- I'm looking for a [Kia](model)
+- id like to buy a new [car](model)
+- looking for a new [kia](model)
+- i want a new kia
+- I want a Kia
+- hi i want a kia
+
+## regex:zip_code
+- (^\d{5}$)|(^\d{9}$)|(^\d{5}-\d{4}$)
